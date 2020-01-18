@@ -1,0 +1,9 @@
+version: '2.4'
+
+services:
+  radicale:
+    build: .
+    ports:
+      - 5232:5232
+    volumes:
+      - ./radicale:/radicale
